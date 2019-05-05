@@ -49,8 +49,7 @@ defmodule EctoMnesia.Mixfile do
     [
       {:confex, "~> 3.3"},
       {:decimal, "~> 1.5"},
-      {:db_connection, "~> 2.0"},
-      {:connection, "~> 1.0"},
+      {:ecto, "~> 2.1.6"},
       {:ex_doc, "~> 0.20", only: [:dev, :test]},
       {:excoveralls, "~> 0.10", only: [:dev, :test]}
     ]
